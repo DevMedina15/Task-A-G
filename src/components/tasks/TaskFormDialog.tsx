@@ -91,7 +91,7 @@ export function TaskFormDialog({ open, onOpenChange, task, projectId, projectMem
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl max-h-[90vh] overflow-hidden flex flex-col">
+      <DialogContent className="max-w-2xl h-[90vh] overflow-hidden flex flex-col">
         <DialogHeader>
           <DialogTitle>{isEditing ? 'Edit Task' : 'Create New Task'}</DialogTitle>
         </DialogHeader>
