@@ -208,7 +208,17 @@ export const RichTextEditor = ({
       {/* EDITOR */}
       <EditorContent
         editor={editor}
-        className="min-h-[200px] px-4 py-3 prose prose-sm max-w-none focus:outline-none"
+        className="
+          min-h-[120px]
+          max-h-[250px]
+          overflow-y-auto
+          px-4
+          py-3
+          prose
+          prose-sm
+          max-w-none
+          focus:outline-none
+        "
       />
     </div>
   )
